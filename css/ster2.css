@@ -1,0 +1,896 @@
+.page_2{
+	width: 100%;
+	height: 100%;	
+	position: absolute;	
+	transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+	animation: rotateInDownLeft 1.5s linear 10s;
+	animation-fill-mode: forwards;
+}
+
+.star_down{
+	position: absolute;
+    opacity: 0;
+    animation: bounceInDown 1.5s ease 11.5s 1;  /*11s*/
+    animation-fill-mode: forwards;
+    width: 100%;
+    height: 100%;
+}
+
+.star{
+	position: absolute;
+	animation: starRotate 5s linear 13s infinite;
+}
+
+.star1{
+    top: 14%;
+    left: 30%;
+}
+
+.star2{
+	width: 50px;
+	top: 50%;
+    left: 15%;
+}
+
+.star3{
+	width: 30px;
+	top: 82%;
+    left: 19%;
+}
+
+.star4{
+	width: 40px;
+    top: 23%;
+    right: 16%;
+}
+
+.star5{
+	width: 40px;
+    top: 78%;
+    right: 60%;
+}
+
+.star6{
+	width: 33px;
+    top: 83%;
+    right: 40%;
+}
+
+.star7{
+	width: 24px;
+    bottom: 34%;
+    right: 9%;
+}
+
+.plan_wrong{
+	width: 251px;
+	height: 324px;
+	position: absolute;
+	left: 40%;
+	top: 26%;
+	animation: zoomOut 2s ease 19s 1;
+	animation-fill-mode: forwards;
+}
+
+.plan{
+	position: absolute;
+	opacity: 0;
+	animation: zoomIn 2s ease 13s 1;
+	animation-fill-mode: forwards;
+}
+
+.wrong{
+	width: 76px;
+	position: absolute;
+	opacity: 0;
+}
+
+.wrong1{
+    left: 18%;
+    top: 45%;
+    animation: zoomIn 1s ease 15s 1;
+	animation-fill-mode: forwards;
+}
+
+.wrong2{
+    right: 18%;
+    top: 55%;
+    animation: zoomIn 1s ease 16s 1;
+	animation-fill-mode: forwards;
+}
+
+.wrong3{
+    right: 40%;
+    top: 66%;
+    animation: zoomIn 1s ease 17s 1;
+	animation-fill-mode: forwards;
+}
+
+.big_space{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	animation: swing 20s linear infinite;
+}
+
+.scene{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.trouble_lovely{
+	animation: fadeOut 1s ease 29s;
+	animation-fill-mode: forwards;
+}
+
+.chuang{
+	width: 15%;
+    position: absolute;
+    bottom: 30%;
+    right: 32%;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 21s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;	
+}
+
+.trouble{
+    width: 7%;
+    position: absolute;
+    top: 22%;
+    right: 40%;
+	opacity: 0;
+	animation: fadeIn 1s ease 22s;
+	animation-fill-mode: forwards;
+}
+
+.trouble_dis{
+	width: 100%;
+	animation: fadeOut 1s ease 26s;
+	animation-fill-mode: forwards;
+}
+
+.trouble_img{
+	width: 100%;
+	animation: starRotate 3s linear 23s infinite;
+}
+
+.lovely{
+	width: 13%;
+    position: absolute;
+    top: 32%;
+    left: 30%;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 25s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.happy{
+    width: 8%;
+    position: absolute;
+    top: 20%;
+    right: 39%;
+	opacity: 0;
+	animation: fadeIn 1s ease 27s;
+	animation-fill-mode: forwards;
+}
+
+.yujing_smile{
+	animation: fadeOut 1s ease 37s;
+	animation-fill-mode: forwards;
+}
+
+.yujing{
+    width: 21%;
+    position: absolute;
+    top: 36%;
+    right: 25%;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 30s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;	
+}
+
+.yaoji{
+    width: 7%;
+    position: absolute;
+    top: 16%;
+    right: 32%;
+    opacity: 0;
+	animation: fadeIn 1s ease 32s;
+	animation-fill-mode: forwards;
+}
+
+.redhead{
+    width: 12%;
+    position: absolute;
+    top: 47%;
+    left: 32%;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 31s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.jinwen_voice{
+	animation: fadeOut 1s ease 41s;
+	animation-fill-mode: forwards;
+}
+
+.jinwen{
+    width: 19%;
+    position: absolute;
+    top: 28%;
+    right: 25%;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 38s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.voice{
+    width: 7%;
+    position: absolute;
+    top: 46%;
+    left: 46%;
+    opacity: 0;
+ 	animation: fadeIn 1s ease 39s;
+	animation-fill-mode: forwards;   
+}
+
+.peiqi{
+ width: 11%;
+    position: absolute;
+    top: 37%;
+    left: 29%;
+    opacity: 0;
+    animation: fadeIn 1s ease 40s;
+	animation-fill-mode: forwards; 
+}
+
+.yanzhe_ball{
+	animation: fadeOut 1s ease 50s;
+	animation-fill-mode: forwards;
+}
+
+.yanzhe{
+    width: 17%;
+    position: absolute;
+    top: 34%;
+    left: 33%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 42s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.big_ball{
+    width: 12%;
+    position: absolute;
+    top: 40%;
+    right: 28%;
+    opacity: 0;	
+    animation: fadeIn 1s ease 43s;
+    animation-fill-mode: forwards;
+}
+
+.ball{
+    animation: wobble 3s ease 44s infinite;
+}
+
+.huihui_yingting{
+	animation: fadeOut 1s ease 58s;
+	animation-fill-mode: forwards;
+}
+
+.haohui{
+	width: 17%;
+    position: absolute;
+    top: 34%;
+    left: 28%;	
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 51s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.yingting{
+	width: 19%;
+    position: absolute;
+    top: 37%;
+    right: 29%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 52s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.microphone{
+	width: 7%;
+    position: absolute;
+    top: 26%;
+    left: 46%;	
+    opacity: 0;
+    animation: fadeIn 1s ease 54s;
+    animation-fill-mode: forwards;
+}
+
+.suhua_yana{
+	animation: fadeOut 1s ease 68s;
+	animation-fill-mode: forwards;
+}
+
+.suhua{
+    width: 13%;
+    position: absolute;
+    top: 28%;
+    left: 26%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 59s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.yana{
+    width: 14%;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 60s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.banshi{
+    width: 10%;
+    position: absolute;
+    top: 40%;
+    right: 27%;
+    opacity: 0;
+    animation: zoomIn 1s ease 61s;
+    animation-fill-mode: forwards;
+}
+
+.photo_box_out{
+    width: 521px;
+    height: 338px;
+    position: absolute;
+    top: 25%;
+    left: 31%;
+}
+
+.photo_box{
+	position: absolute;
+    background: #fff;
+    padding: 18px;
+}
+
+.photo_style{
+	width: 100%;
+}
+
+.photo_box p{
+	margin-top: 10px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	text-align: center;
+}
+
+.box1{
+    opacity: 0;
+    animation: zoomIn 1s ease 69s;
+    animation-fill-mode: forwards;
+}
+
+
+.box1out{
+    animation: fadeOut 1s ease 73s;
+    animation-fill-mode: forwards;
+ }
+
+.box2{
+    opacity: 0;
+    animation: zoomIn 1s ease 74s;
+    animation-fill-mode: forwards;
+}
+
+.box2out{
+    animation: fadeOut 1s ease 77s;
+    animation-fill-mode: forwards;
+ }
+
+ .box3{
+    opacity: 0;
+    animation: zoomIn 1s ease 78s;
+    animation-fill-mode: forwards;
+}
+
+.box3out{
+    animation: fadeOut 1s ease 81s;
+    animation-fill-mode: forwards;
+ }
+
+ .box4{
+    opacity: 0;
+    animation: zoomIn 1s ease 82s;
+    animation-fill-mode: forwards;
+}
+
+.box4out{
+    animation: fadeOut 1s ease 86s;
+    animation-fill-mode: forwards;
+ }
+
+ .box5{
+    opacity: 0;
+    animation: zoomIn 1s ease 87s;
+    animation-fill-mode: forwards;
+}
+
+.box5out{
+    animation: fadeOut 1s ease 91s;
+    animation-fill-mode: forwards;
+ }
+
+.box6{
+    opacity: 0;
+    animation: zoomIn 1s ease 92s;
+    animation-fill-mode: forwards;
+}
+
+.box6out{
+    animation: fadeOut 1s ease 96s;
+    animation-fill-mode: forwards;
+ }
+
+.box7{
+    opacity: 0;
+    animation: zoomIn 1s ease 97s;
+    animation-fill-mode: forwards;
+}
+
+.box7out{
+    animation: fadeOut 1s ease 100s;
+    animation-fill-mode: forwards;
+ }
+
+.box8{
+    opacity: 0;
+    animation: zoomIn 1s ease 101s;
+    animation-fill-mode: forwards;
+}
+
+.box8out{
+    animation: fadeOut 1s ease 105s;
+    animation-fill-mode: forwards;
+ }
+
+.box9{
+    opacity: 0;
+    animation: zoomIn 1s ease 106s;
+    animation-fill-mode: forwards;
+}
+
+.box9out{
+    animation: fadeOut 1s ease 109s;
+    animation-fill-mode: forwards;
+ }
+
+.box10{
+    opacity: 0;
+    animation: zoomIn 1s ease 110s;
+    animation-fill-mode: forwards;
+}
+
+.box10out{
+    animation: fadeOut 1s ease 114s;
+    animation-fill-mode: forwards;
+ }
+
+.haibin_dis{
+    animation: fadeOut 1s ease 117s;
+    animation-fill-mode: forwards;
+}
+
+.haibin_c{
+	animation: fadeOut 1s ease 122s;
+	animation-fill-mode: forwards;
+}
+
+.haibin{
+	width: 12%;
+    position: absolute;
+    top: 18%;
+    left: 33%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 115s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;	
+}
+
+.good{
+    width: 13%;
+    position: absolute;
+    top: 38%;
+    right: 32%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 116s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;	
+}
+
+.gif_box{
+    width: 521px;
+    height: 338px;
+    position: absolute;
+    top: 25%;
+    left: 31%;
+    opacity: 0;
+    animation: zoomIn 1s ease 118s;
+    animation-fill-mode: forwards;
+    padding: 10px;
+    background: #fff;
+}
+
+.gif_box img{
+	width: 100%;
+}
+
+.gif_box p{
+	margin-top: 10px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	text-align: center;	
+}
+
+.jiajiang_huasheng{
+	animation: fadeOut 1s ease 130s;
+	animation-fill-mode: forwards;
+}
+
+.jiajiang{
+width: 18%;
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 123s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.huasheng{
+	width: 17%;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 124s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.tuanzong{
+    width: 10%;
+    position: absolute;
+    top: 40%;
+    right: 27%;
+    opacity: 0;
+    animation: zoomIn 1s ease 126s;
+    animation-fill-mode: forwards;
+}
+
+.wangfan_peilin{
+	animation: fadeOut 1s ease 138s;
+	animation-fill-mode: forwards;
+}
+
+.peilin{
+    width: 13%;
+    position: absolute;
+    top: 28%;
+    left: 26%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 132s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.wangfan{
+    width: 14%;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 131s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.earth{
+    width: 10%;
+    position: absolute;
+    top: 44%;
+    right: 27%;
+    opacity: 0;
+    animation: zoomIn 1s ease 133s;
+    animation-fill-mode: forwards;
+}
+
+.earth img{
+	width: 100%;
+	animation: starRotate 3s linear 134s infinite;
+}
+
+.shumai_play{
+	animation: fadeOut 1s ease 148s;
+	animation-fill-mode: forwards;
+}
+
+.shumai{
+    width: 13%;
+    position: absolute;
+    top: 28%;
+    left: 26%;
+    transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 140s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.diwurenge{
+    width: 10%;
+    position: absolute;
+    top: 44%;
+    right: 42%;
+    opacity: 0;
+    animation: zoomIn 1s ease 142s;
+    animation-fill-mode: forwards;
+}
+
+.wangzhe{
+    width: 10%;
+    position: absolute;
+    top: 44%;
+    right: 27%;
+    opacity: 0;
+    animation: zoomIn 1s ease 143s;
+    animation-fill-mode: forwards;
+}
+
+.plane{
+    width: 15%;
+    position: absolute;
+    top: 36%;
+    right: 44%;
+    transform: translate3d(-900px, -200px ,0) rotate3d(0, 0, 1, 0deg);
+    animation: fly 20s linear 150s;
+    animation-fill-mode: forwards;
+}
+
+.box11{
+    opacity: 0;
+    animation: zoomIn 1s ease 171s;
+    animation-fill-mode: forwards;
+}
+
+
+.box11out{
+    animation: fadeOut 1s ease 175s;
+    animation-fill-mode: forwards;
+}
+
+.box12{
+    opacity: 0;
+    animation: zoomIn 1s ease 176s;
+    animation-fill-mode: forwards;
+}
+
+.box12out{
+    animation: fadeOut 1s ease 179s;
+    animation-fill-mode: forwards;
+ }
+
+ .box13{
+    opacity: 0;
+    animation: zoomIn 1s ease 180s;
+    animation-fill-mode: forwards;
+}
+
+.box13out{
+    animation: fadeOut 1s ease 183s;
+    animation-fill-mode: forwards;
+ }
+
+.love{
+	animation: loveRotate 5s linear 200s 1;
+	animation-fill-mode: forwards;
+}
+
+.lovepic{
+	width: 18%;
+	position: absolute;
+	top: 33%;
+	left: 41%;
+	opacity: 0;
+}
+
+.lovepic1{
+	transform: translate(0px,0px) scale(1);
+	animation: lp1 1s ease 184s;
+	animation-fill-mode: forwards;
+}
+
+.lovepic2{
+	/*transform: translate(-80px,-195px) scale(0.3);*/
+	transform: translate(0px,0px) scale(1);
+	animation: lp2 1s ease 185s;
+	animation-fill-mode: forwards;
+}
+
+.lovepic3{
+	transform: translate(0px,0px) scale(1);
+	animation: lp3 1s ease 186s;
+	animation-fill-mode: forwards;
+	/*transform: translate(-150px,-150px) scale(0.3);*/
+
+}
+ 
+
+.lovepic4{
+	transform: translate(0px,0px) scale(1);
+	animation: lp4 1s ease 187s;
+	animation-fill-mode: forwards;
+	/*transform: translate(-195px,-80px) scale(0.3);*/
+
+}
+ 
+.lovepic5{
+	transform: translate(0px,0px) scale(1);
+	animation: lp5 1s ease 188s;
+	animation-fill-mode: forwards;	/*transform: translate(-215px,0px) scale(0.3);*/
+
+}
+ 
+.lovepic6{
+	transform: translate(0px,0px) scale(1);
+	animation: lp6 1s ease 189s;
+	animation-fill-mode: forwards;
+	/*transform: translate(-195px,80px) scale(0.3);*/
+
+}
+ 
+.lovepic7{
+	transform: translate(0px,0px) scale(1);
+	animation: lp7 1s ease 190s;
+	animation-fill-mode: forwards;
+	/*transform: translate(-150px,150px) scale(0.3);*/
+
+}
+ 
+.lovepic8{
+	transform: translate(0px,0px) scale(1);
+	animation: lp8 1s ease 191s;
+	animation-fill-mode: forwards;
+	/*transform: translate(-80px,195px) scale(0.3);*/
+
+}
+ 
+.lovepic9{
+	transform: translate(0px,0px) scale(1);
+	animation: lp9 1s ease 192s;
+	animation-fill-mode: forwards;
+}
+ 
+.lovepic10{
+	transform: translate(0px,0px) scale(1);
+	animation: lp10 1s ease 193s;
+	animation-fill-mode: forwards;	/*transform: translate(80px,195px) scale(0.3);*/
+
+}
+
+
+.lovepic11{
+	transform: translate(0px,0px) scale(1);
+	animation: lp11 1s ease 194s;
+	animation-fill-mode: forwards;
+	/*transform: translate(150px,150px) scale(0.3);*/
+
+}
+
+ 
+.lovepic12{
+
+transform: translate(0px,0px) scale(1);
+	animation: lp12 1s ease 195s;
+	animation-fill-mode: forwards;	/*transform: translate(195px,80px) scale(0.3);*/
+
+}
+ 
+
+.lovepic13{
+	/*transform: translate(215px,0px) scale(0.3);*/
+	transform: translate(0px,0px) scale(1);
+	animation: lp13 1s ease 196s;
+	animation-fill-mode: forwards;
+}
+
+
+.lovepic14{
+	transform: translate(0px,0px) scale(1);
+	animation: lp14 1s ease 197s;
+	animation-fill-mode: forwards;
+	/*transform: translate(195px,-80px) scale(0.3);*/
+}
+
+
+.lovepic15{
+	transform: translate(0px,0px) scale(1);
+	animation: lp15 1s ease 198s;
+	animation-fill-mode: forwards;
+	/*transform: translate(150px,-150px) scale(0.3);*/
+}
+
+
+.lovepic16{
+	transform: translate(0px,0px) scale(1);
+	animation: lp16 1s ease 199s;
+	animation-fill-mode: forwards;
+	/*transform: translate(80px,-195px) scale(0.3);*/
+}
+
+.bg_pic{
+	width: 100%;
+	height: 100%;
+    position: absolute;
+	animation: rotateOutUpLeft 1s ease 204s; /*204s*/
+	animation-fill-mode: forwards;
+}
+
+.star_out{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: bounceOutUp 2s ease 203s; /*203s*/
+    animation-fill-mode: forwards;
+    width: 100%;
+    height: 100%;
+}
+
+.st_logo{
+	width: 22%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 5;
+	animation: movetoleft 2s ease 213s;
+	animation-fill-mode: forwards;   
+}
+
+.logo{
+	width: 100%;
+	opacity: 0;
+	animation: logoRotate 5s linear 205s; /*205s 1s*/
+	animation-fill-mode: forwards;
+}
+
+.STER{
+	position: absolute;
+    top: 39%;
+    left: 31%;
+	text-align: center;
+	font-family: Segoe UI;
+	font-size: 40px;
+	color: #414141;
+	opacity: 0;
+	animation: zoomIn 2s ease 208s; /*208s 4s*/
+	animation-fill-mode: forwards;
+}
+
+
+ 

@@ -1,0 +1,369 @@
+.lyric{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+}
+
+.black1{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	background: #000;
+}
+
+.black2{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	background: #000;
+}
+
+.ldis_style{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+}
+
+.lyric_style{
+	text-align: center;
+	font-family: Microsoft Mhei;
+	font-size: 32px;
+	line-height: 60px;
+	color: #fff;
+	opacity: 0;
+}
+
+.lyric1{
+	animation: fadeIn 2s ease;
+	animation-fill-mode: forwards;
+}
+
+.ldis1{
+	animation: fadeOut 2s ease 9s;
+	animation-fill-mode: forwards;
+}
+
+.lyric2{
+	animation: fadeIn 1s ease 13s;
+	animation-fill-mode: forwards;
+}
+
+.ldis2{
+	animation: fadeOut 1s ease 19s;
+	animation-fill-mode: forwards;
+}
+
+.lyric3{
+	animation: fadeIn 1s ease 21s;
+	animation-fill-mode: forwards;
+}
+
+.ldis3{
+	animation: fadeOut 1s ease 29s;
+	animation-fill-mode: forwards;
+}
+
+.lyric4{
+	animation: fadeIn 1s ease 30s;
+	animation-fill-mode: forwards;
+}
+
+.ldis4{
+	animation: fadeOut 1s ease 37s;
+	animation-fill-mode: forwards;
+}
+
+.lyric5{
+	animation: fadeIn 1s ease 38s;
+	animation-fill-mode: forwards;
+}
+
+.ldis5{
+	animation: fadeOut 1s ease 41s;
+	animation-fill-mode: forwards;
+}
+
+.lyric6{
+	animation: fadeIn 1s ease 42s;
+	animation-fill-mode: forwards;
+}
+
+.ldis6{
+	animation: fadeOut 1s ease 45s;
+	animation-fill-mode: forwards;
+}
+
+.lyric7{
+	animation: fadeIn 1s ease 51s;
+	animation-fill-mode: forwards;
+}
+
+.ldis7{
+	animation: fadeOut 1s ease 58s;
+	animation-fill-mode: forwards;
+}
+
+.lyric8{
+	animation: fadeIn 1s ease 59s;
+	animation-fill-mode: forwards;
+}
+
+.ldis8{
+	animation: fadeOut 1s ease 68s;
+	animation-fill-mode: forwards;
+}
+
+.lyric9{
+	animation: fadeIn 1s ease 69s;
+	animation-fill-mode: forwards;
+}
+
+.ldis9{
+	animation: fadeOut 1s ease 73s;
+	animation-fill-mode: forwards;
+}
+
+.lyric10{
+	animation: fadeIn 1s ease 74s;
+	animation-fill-mode: forwards;
+}
+
+.ldis10{
+	animation: fadeOut 1s ease 77s;
+	animation-fill-mode: forwards;
+}
+
+.lyric11{
+	animation: fadeIn 1s ease 78s;
+	animation-fill-mode: forwards;
+}
+
+.ldis11{
+	animation: fadeOut 1s ease 81s;
+	animation-fill-mode: forwards;
+}
+
+.lyric12{
+	animation: fadeIn 1s ease 82s;
+	animation-fill-mode: forwards;
+}
+
+.ldis12{
+	animation: fadeOut 1s ease 84s;
+	animation-fill-mode: forwards;
+}
+
+.lyric13{
+	animation: fadeIn 1s ease 85s;
+	animation-fill-mode: forwards;
+}
+
+.ldis13{
+	animation: fadeOut 1s ease 93s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric14{
+	animation: fadeIn 1s ease 94s;
+	animation-fill-mode: forwards;
+}
+
+.ldis14{
+	animation: fadeOut 1s ease 97s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric15{
+	animation: fadeIn 1s ease 98s;
+	animation-fill-mode: forwards;
+}
+
+.ldis15{
+	animation: fadeOut 1s ease 102s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric16{
+	animation: fadeIn 1s ease 115s;
+	animation-fill-mode: forwards;
+}
+
+.ldis16{
+	animation: fadeOut 1s ease 122s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric17{
+	animation: fadeIn 1s ease 123s;
+	animation-fill-mode: forwards;
+}
+
+.ldis17{
+	animation: fadeOut 1s ease 130s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric18{
+	animation: fadeIn 1s ease 131s;
+	animation-fill-mode: forwards;
+}
+
+.ldis18{
+	animation: fadeOut 1s ease 138s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric19{
+	animation: fadeIn 1s ease 140s;
+	animation-fill-mode: forwards;
+}
+
+.ldis19{
+	animation: fadeOut 1s ease 148s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric20{
+	animation: fadeIn 1s ease 150s;
+	animation-fill-mode: forwards;
+}
+
+.ldis20{
+	animation: fadeOut 1s ease 159s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric21{
+	animation: fadeIn 1s ease 160s;
+	animation-fill-mode: forwards;
+}
+
+.ldis21{
+	animation: fadeOut 1s ease 169s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric22{
+	animation: fadeIn 1s ease 171s;
+	animation-fill-mode: forwards;
+}
+
+.ldis22{
+	animation: fadeOut 1s ease 175s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric23{
+	animation: fadeIn 1s ease 176s;
+	animation-fill-mode: forwards;
+}
+
+.ldis23{
+	animation: fadeOut 1s ease 179s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric24{
+	animation: fadeIn 1s ease 180s;
+	animation-fill-mode: forwards;
+}
+
+.ldis24{
+	animation: fadeOut 1s ease 183s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric25{
+	animation: fadeIn 1s ease 184s;
+	animation-fill-mode: forwards;
+}
+
+.ldis25{
+	animation: fadeOut 1s ease 186s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric26{
+	animation: fadeIn 1s ease 187s;
+	animation-fill-mode: forwards;
+}
+
+.ldis26{
+	animation: fadeOut 1s ease 195s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric27{
+	animation: fadeIn 1s ease 196s;
+	animation-fill-mode: forwards;
+}
+
+.ldis27{
+	animation: fadeOut 1s ease 199s;
+	animation-fill-mode: forwards;
+}
+
+
+.lyric28{
+	animation: fadeIn 1s ease 200s;
+	animation-fill-mode: forwards;
+}
+
+.ldis28{
+	animation: fadeOut 1s ease 209s;
+	animation-fill-mode: forwards;
+}
+
+#huaxu{
+	width: 50%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	transform: translate(0,-50%);
+	opacity: 0;
+	animation: fadeIn 1s ease 215s;
+	animation-fill-mode: forwards;
+}
+
+.page_3{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #fff;
+	z-index: 9;
+	opacity: 0;
+	animation: fadeIn 1s ease 312s;
+	animation-fill-mode: forwards;
+}
+.page_3 p{
+	font-size: 35px;
+	font-family: Microsoft YaHei; 
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 45%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: 0;
+	animation: zoomIn 2s ease 313s;
+	animation-fill-mode: forwards;
+}
